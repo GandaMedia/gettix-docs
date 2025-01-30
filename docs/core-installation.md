@@ -10,6 +10,13 @@ composer require gandamedia/gettix-core
 > 
 > You may need to update your app's composer.json to set "minimum-stability": "dev",
 
+## Install the Package
+To install all the necessary files and migrations, run the following command:
+```bash
+php artisan gettix-core:install
+```
+
+
 ## Add the GetTixOwner Trait
 Brands and Events should be owned by models such as a Team (or User). To setup the relationship, add the `GetTixOwner` trait to the model.
 
